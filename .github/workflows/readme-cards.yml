@@ -11,25 +11,52 @@ permissions:
 jobs:
   cards:
     runs-on: ubuntu-latest
+    env:
+      # With a STATS_TOKEN secret (classic PAT, read:user), the card counts
+      # last year's private contributions. Without it, all-time public commits.
+      HAS_STATS_TOKEN: ${{ secrets.STATS_TOKEN != '' }}
+      COMMON: username=vahiwe&show_icons=true&hide_border=true&rank_icon=github
     steps:
       - uses: actions/checkout@v4
 
-      - name: Stats card (dark)
+      - name: Stats card (dark, with private contributions)
+        if: env.HAS_STATS_TOKEN == 'true'
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=vahiwe&show_icons=true&count_private=true&hide_border=true&rank_icon=github&theme=github_dark&bg_color=0d1117
+          options: ${{ env.COMMON }}&count_private=true&theme=github_dark&bg_color=0d1117
           path: profile/stats-dark.svg
-          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
           fail_on_error: true
 
-      - name: Stats card (light)
+      - name: Stats card (light, with private contributions)
+        if: env.HAS_STATS_TOKEN == 'true'
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=vahiwe&show_icons=true&count_private=true&hide_border=true&rank_icon=github&theme=default
+          options: ${{ env.COMMON }}&count_private=true&theme=default
           path: profile/stats-light.svg
-          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
+          fail_on_error: true
+
+      - name: Stats card (dark, public only)
+        if: env.HAS_STATS_TOKEN != 'true'
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: ${{ env.COMMON }}&include_all_commits=true&theme=github_dark&bg_color=0d1117
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Stats card (light, public only)
+        if: env.HAS_STATS_TOKEN != 'true'
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: ${{ env.COMMON }}&include_all_commits=true&theme=default
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Commit cards

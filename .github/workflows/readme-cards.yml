@@ -18,36 +18,18 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=vahiwe&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&theme=github_dark&bg_color=0d1117
+          options: username=vahiwe&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&theme=github_dark&bg_color=0d1117
           path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Stats card (light)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=vahiwe&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&theme=default
+          options: username=vahiwe&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&theme=default
           path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
-
-      - name: Top languages card (dark)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=vahiwe&layout=compact&langs_count=8&hide_border=true&hide=html,css,jupyter notebook,scss,procfile&theme=github_dark&bg_color=0d1117
-          path: profile/top-langs-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
-
-      - name: Top languages card (light)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=vahiwe&layout=compact&langs_count=8&hide_border=true&hide=html,css,jupyter notebook,scss,procfile&theme=default
-          path: profile/top-langs-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Commit cards

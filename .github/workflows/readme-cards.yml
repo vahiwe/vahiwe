@@ -18,7 +18,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=vahiwe&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&theme=github_dark&bg_color=0d1117
+          options: username=vahiwe&show_icons=true&count_private=true&hide_border=true&rank_icon=github&theme=github_dark&bg_color=0d1117
           path: profile/stats-dark.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
@@ -27,7 +27,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=vahiwe&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&theme=default
+          options: username=vahiwe&show_icons=true&count_private=true&hide_border=true&rank_icon=github&theme=default
           path: profile/stats-light.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true

@@ -28,16 +28,40 @@ Senior DevOps and platform engineer with 7+ years building and running productio
 
 ## 🛠️ Stack
 
-| | |
-|:--|:--|
-| **Cloud** | <img src="https://skillicons.dev/icons?i=aws,gcp,cloudflare" height="36" alt="AWS, GCP, Cloudflare"/><br/><sub>AWS (multi-account, EKS, ECS, Lambda, Step Functions, RDS, DynamoDB, CloudFront, WAF), GCP, Cloudflare</sub> |
-| **Infrastructure as code** | <img src="https://skillicons.dev/icons?i=terraform,ansible" height="36" alt="Terraform, Ansible"/> <img src="https://img.shields.io/badge/Pulumi-8A3391?style=flat-square&logo=pulumi&logoColor=white" alt="Pulumi"/><br/><sub>Terraform, Terragrunt, Atlantis, AWS CDK, Pulumi, CloudFormation</sub> |
-| **Containers** | <img src="https://skillicons.dev/icons?i=kubernetes,docker" height="36" alt="Kubernetes, Docker"/><br/><sub>Kubernetes, Helm, cert-manager, Docker, Podman</sub> |
-| **CI/CD** | <img src="https://skillicons.dev/icons?i=githubactions,gitlab,jenkins" height="36" alt="GitHub Actions, GitLab, Jenkins"/><br/><sub>GitHub Actions, GitLab CI, CircleCI, Jenkins, Ansible</sub> |
-| **Observability** | <img src="https://skillicons.dev/icons?i=prometheus,grafana" height="36" alt="Prometheus, Grafana"/> <img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white" alt="Datadog"/><br/><sub>Datadog, Prometheus, Grafana, CloudWatch, ELK, Fluent Bit, Pyroscope</sub> |
-| **Languages** | <img src="https://skillicons.dev/icons?i=ts,py,go,bash" height="36" alt="TypeScript, Python, Go, Bash"/><br/><sub>TypeScript, Python, Go, Bash</sub> |
-| **Backends** | <img src="https://skillicons.dev/icons?i=nodejs,nestjs,django,fastapi" height="36" alt="Node.js, NestJS, Django, FastAPI"/> <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/><br/><sub>Node.js (Express, NestJS), Django, FastAPI, Stripe</sub> |
-| **Data** | <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,mysql" height="36" alt="PostgreSQL, MongoDB, Redis, MySQL"/><br/><sub>PostgreSQL, MongoDB, Redis, DynamoDB, MySQL, SQS, BullMQ</sub> |
+<table>
+  <tr>
+    <td><b>Cloud</b></td>
+    <td><img src="https://skillicons.dev/icons?i=aws,gcp,cloudflare" height="36" alt="AWS, GCP, Cloudflare"/><br/><sub>AWS (multi-account, EKS, ECS, Lambda, Step Functions, RDS, DynamoDB, CloudFront, WAF), GCP, Cloudflare</sub></td>
+  </tr>
+  <tr>
+    <td><b>Infrastructure as code</b></td>
+    <td><img src="https://skillicons.dev/icons?i=terraform,ansible" height="36" alt="Terraform, Ansible"/> <img src="https://img.shields.io/badge/Pulumi-8A3391?style=flat-square&logo=pulumi&logoColor=white" alt="Pulumi"/><br/><sub>Terraform, Terragrunt, Atlantis, AWS CDK, Pulumi, CloudFormation</sub></td>
+  </tr>
+  <tr>
+    <td><b>Containers</b></td>
+    <td><img src="https://skillicons.dev/icons?i=kubernetes,docker" height="36" alt="Kubernetes, Docker"/><br/><sub>Kubernetes, Helm, cert-manager, Docker, Podman</sub></td>
+  </tr>
+  <tr>
+    <td><b>CI/CD</b></td>
+    <td><img src="https://skillicons.dev/icons?i=githubactions,gitlab,jenkins" height="36" alt="GitHub Actions, GitLab, Jenkins"/><br/><sub>GitHub Actions, GitLab CI, CircleCI, Jenkins, Ansible</sub></td>
+  </tr>
+  <tr>
+    <td><b>Observability</b></td>
+    <td><img src="https://skillicons.dev/icons?i=prometheus,grafana" height="36" alt="Prometheus, Grafana"/> <img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white" alt="Datadog"/><br/><sub>Datadog, Prometheus, Grafana, CloudWatch, ELK, Fluent Bit, Pyroscope</sub></td>
+  </tr>
+  <tr>
+    <td><b>Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=ts,py,go,bash" height="36" alt="TypeScript, Python, Go, Bash"/><br/><sub>TypeScript, Python, Go, Bash</sub></td>
+  </tr>
+  <tr>
+    <td><b>Backends</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nodejs,nestjs,django,fastapi" height="36" alt="Node.js, NestJS, Django, FastAPI"/> <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/><br/><sub>Node.js (Express, NestJS), Django, FastAPI, Stripe</sub></td>
+  </tr>
+  <tr>
+    <td><b>Data</b></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,mysql" height="36" alt="PostgreSQL, MongoDB, Redis, MySQL"/><br/><sub>PostgreSQL, MongoDB, Redis, DynamoDB, MySQL, SQS, BullMQ</sub></td>
+  </tr>
+</table>
 
 ## 🌱 Open source
 

@@ -15,6 +15,13 @@
 
 Senior DevOps and platform engineer with 7+ years building and running production systems on AWS, across fintech, AI infrastructure, healthcare, public sector and on-premise deployments. I design the cloud environment, codify it, build the CI/CD and monitoring around it, and write the application code that runs on it.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg"/>
+    <img src="./profile/stats-light.svg" alt="GitHub stats for vahiwe" height="165"/>
+  </picture>
+</p>
+
 ## 🚀 Some of what that's looked like
 
 - ⚡ **CI/CD:** cut a fintech's CI cost about 3x and its 20,000-test suite from 12 minutes to under 4. Moved a hospital team's CI/CD from Jenkins to GitHub Actions in a HIPAA-aligned environment.

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:232F3E,100:FF9900&height=200&section=header&text=Valentine%20Ahiwe&fontColor=ffffff&fontSize=52&fontAlignY=36&desc=Senior%20DevOps%20%26%20Platform%20Engineer&descSize=20&descAlignY=58" width="100%" alt="Valentine Ahiwe, Senior DevOps and Platform Engineer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:232F3E,100:FF9900&height=200&section=header&text=Valentine%20Ahiwe&fontColor=ffffff&fontSize=52&fontAlignY=36&desc=Senior%20DevOps%20and%20Platform%20Engineer&descSize=20&descAlignY=58" width="100%" alt="Valentine Ahiwe, Senior DevOps and Platform Engineer"/>
 </p>
 
 <p align="center">

@@ -59,6 +59,40 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
+      - name: Top languages card (dark, public repos)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=vahiwe&layout=compact&langs_count=8&hide=c%2B%2B,c,java&hide_border=true&theme=github_dark&bg_color=0d1117
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Top languages card (light, public repos)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=vahiwe&layout=compact&langs_count=8&hide=c%2B%2B,c,java&hide_border=true&theme=default
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: WakaTime card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: wakatime
+          options: username=vahiwe&layout=compact&langs_count=8&hide=json,markdown,other,text,csv,tsconfig,mdx,git%20config&hide_border=true&theme=github_dark&bg_color=0d1117
+          path: profile/wakatime-dark.svg
+          fail_on_error: true
+
+      - name: WakaTime card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: wakatime
+          options: username=vahiwe&layout=compact&langs_count=8&hide=json,markdown,other,text,csv,tsconfig,mdx,git%20config&hide_border=true&theme=default
+          path: profile/wakatime-light.svg
+          fail_on_error: true
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"

@@ -20,6 +20,17 @@ Senior DevOps and platform engineer with 7+ years building and running productio
     <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg"/>
     <img src="./profile/stats-light.svg" alt="GitHub stats for vahiwe" height="165"/>
   </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg"/>
+    <img src="./profile/top-langs-light.svg" alt="Top languages in public repos" height="165"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-dark.svg"/>
+    <img src="./profile/wakatime-light.svg" alt="WakaTime coding time by language" height="165"/>
+  </picture>
 </p>
 
 ## 🚀 Some of what that's looked like

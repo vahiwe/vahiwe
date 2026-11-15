@@ -78,14 +78,14 @@ jobs:
       - name: Streak card (dark)
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          options: user=vahiwe&theme=github-dark&background=0D1117&hide_border=true&ring=FF9900&fire=FF9900&currStreakLabel=FF9900&disable_animations=true
+          options: user=vahiwe&theme=github-dark&background=0D1117&hide_border=true&ring=FF9900&fire=FF9900&currStreakLabel=FF9900&dates=8B949E&stroke=30363D&disable_animations=true
           path: profile/streak-dark.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Streak card (light)
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          options: user=vahiwe&theme=default&hide_border=true&ring=FF9900&fire=FF9900&currStreakLabel=C26F00&disable_animations=true
+          options: user=vahiwe&theme=default&hide_border=true&ring=FF9900&fire=FF9900&currStreakLabel=C26F00&dates=656D76&stroke=D0D7DE&disable_animations=true
           path: profile/streak-light.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
@@ -95,6 +95,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           USERNAME: vahiwe
           SETTING_JSON: .github/profile-3d.json
+
+      - name: Trim the 3D calendar
+        run: python3 .github/scripts/trim-3d.py profile-3d-contrib/profile-3d.svg
 
       - name: Commit cards
         run: |

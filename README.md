@@ -21,6 +21,13 @@ Senior DevOps and platform engineer with 7+ years building and running productio
     <img src="./profile/stats-light.svg" alt="GitHub stats for vahiwe" height="165"/>
   </picture>
   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg"/>
+    <img src="./profile/streak-light.svg" alt="Contribution streak for vahiwe" height="165"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-dark.svg"/>
     <img src="./profile/wakatime-light.svg" alt="WakaTime coding time by language" height="165"/>
   </picture>
@@ -98,6 +105,12 @@ All on [Credly](https://www.credly.com/users/vahiwe/badges).
 ## ✍️ Writing
 
 Articles on [Medium](https://medium.com/@vahiwe) about AWS leader election, Parameter Store for Elastic Beanstalk, scheduled Lambda backups, Elastic Beanstalk SSL, and CI/CD for Django.
+
+## 📅 The last year
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-3d.svg" alt="3D contribution calendar for the last year" width="100%"/>
+</p>
 
 ## 🌍 Elsewhere
 
